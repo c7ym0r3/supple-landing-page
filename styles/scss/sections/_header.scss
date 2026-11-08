@@ -1,0 +1,42 @@
+.header {
+  .container {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+    justify-content: space-between;
+  }
+}
+.header__logo {
+  font-size: 46px;
+  font-family: $font-syne;
+  font-weight: 800;
+  span {
+    color: $color-accent;
+  }
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.header__nav-item {
+  text-transform: uppercase;
+  font-family: $font-montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 6%;
+  color: $color-white;
+  transition: all 0.25s ease;
+  &:hover {
+    color: $color-accent;
+  }
+}
+
+.header__nav-item.active {
+  color: $color-accent;
+}
+
+.header__nav-link {
+}
