@@ -21,6 +21,10 @@ body {
   background-color: $color-main;
 }
 
+main.hide{
+  filter: blur(10px);
+}
+
 a {
   color: currentColor;
   text-decoration: none;
@@ -51,4 +55,8 @@ li {
   padding-inline: $container-padding-x;
   max-width: calc($container-max-width + $container-padding-x * 2);
   margin-inline: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
